@@ -1,6 +1,7 @@
 import requests, sys
 from bs4 import BeautifulSoup
 
+
 # join with '-'
 if len(sys.argv) < 2:
   print('This needs at least one arguement')
