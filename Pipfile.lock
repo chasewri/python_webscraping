@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c302e3c6b798eea39fe5c1498301f994fa8b81a287900f041efe2b9a671bb918"
+            "sha256": "85bb2a4c553d37c46cd4d5dbed0ba0a6a5336907bd127a13e1275f4c23b0ff96"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,14 @@
         ]
     },
     "default": {
+        "activesoup": {
+            "hashes": [
+                "sha256:467fb545044e9093a65443555d92055bd070ceeab81ee755f9cb6c7d09d01fbc",
+                "sha256:4c18ac05ee68046886ad35493be92d7884785c7df282df92bfad44b86043731d"
+            ],
+            "index": "pypi",
+            "version": "==0.0.5"
+        },
         "beautifulsoup4": {
             "hashes": [
                 "sha256:73cc4d115b96f79c7d77c1c7f7a0a8d4c57860d1041df407dd1aae7f07a77fd7",
@@ -48,6 +56,14 @@
             "index": "pypi",
             "version": "==3.0.4"
         },
+        "html5lib": {
+            "hashes": [
+                "sha256:0d78f8fde1c230e99fe37986a60526d7049ed4bf8a9fadbad5f00e22e58e041d",
+                "sha256:b2e5b40261e20f354d198eae92afc10d750afb487ed5e50f9c4eaf07c184146f"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
+            "version": "==1.1"
+        },
         "idna": {
             "hashes": [
                 "sha256:b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6",
@@ -64,6 +80,14 @@
             "index": "pypi",
             "version": "==2.24.0"
         },
+        "six": {
+            "hashes": [
+                "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259",
+                "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==1.15.0"
+        },
         "soupsieve": {
             "hashes": [
                 "sha256:1634eea42ab371d3d346309b93df7870a88610f0725d47528be902a0d95ecc55",
@@ -79,6 +103,13 @@
             ],
             "index": "pypi",
             "version": "==1.25.10"
+        },
+        "webencodings": {
+            "hashes": [
+                "sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78",
+                "sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923"
+            ],
+            "version": "==0.5.1"
         }
     },
     "develop": {}

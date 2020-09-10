@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-
-import requests, shutil, sys
+import requests, shutil, sys, os
 from bs4 import BeautifulSoup
 
 if len(sys.argv) > 1:
@@ -21,3 +20,12 @@ with open(title.text.strip()[:10] + '.txt', 'w') as f:
   
 print('The article was created!')
 print(title.text.strip())
+print('Would you like to convert?')
+answer = input()
+if answer == 'y' or answer == 'Y':
+  os.system("ebook-convert '" + title.text.strip()[:10] + ".txt' '" + title.text.strip()[:10] + ".epub'" )
+  print('Would you like to send to Drive?')
+  send = input()
+  if send == 'Y' or send == 'y':
+    os.system("rm '" + title.text.strip()[:10] + ".txt'")
+    os.system("mv '" + title.text.strip()[:10] + ".epub' ~/myGoogleDrive/")
